@@ -1,0 +1,15 @@
+{
+    "name": "postoor/line-notify-sdk",
+    "description": "Line Notify SDK for PHP",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0|^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "postoor",
+            "email": "tungc8763-github@yahoo.com"
+        }
+    ]
+}
