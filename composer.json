@@ -3,13 +3,17 @@
     "description": "Line Notify SDK for PHP",
     "type": "library",
     "require": {
+        "php": ">=7.0",
         "guzzlehttp/guzzle": "^7.0|^6.0"
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "postoor",
-            "email": "tungc8763-github@yahoo.com"
+    "autoload": {
+        "psr-4": {
+            "postoor\\": "src/"
         }
-    ]
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "postoor",
+        "email": "tungc8763-github@yahoo.com"
+    }]
 }
